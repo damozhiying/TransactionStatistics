@@ -17,6 +17,6 @@ public interface Transaction {
     @Min(0)
     double getAmount();
 
-    @WithinLast(duration = 300, unit = SECONDS)
+    @WithinLast(duration = 60, unit = SECONDS)
     long getTimestamp();
 }
