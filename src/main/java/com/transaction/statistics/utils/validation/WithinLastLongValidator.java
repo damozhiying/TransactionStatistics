@@ -1,8 +1,8 @@
 package com.transaction.statistics.utils.validation;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.sun.istack.internal.Nullable;
 
+import javax.annotation.Nullable;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.time.Duration;

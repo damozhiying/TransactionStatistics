@@ -2,8 +2,8 @@ package com.transaction.statistics.utils.storage;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.transaction.statistics.exceptions.InvalidTimestampException;
-import com.sun.istack.internal.Nullable;
 
+import javax.annotation.Nullable;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalUnit;
